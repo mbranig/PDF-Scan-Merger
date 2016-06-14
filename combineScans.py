@@ -2,7 +2,7 @@ from pdfrw import PdfReader, PdfWriter, PageMerge
 
 even = PdfReader('examplefiles/even_rev.pdf')
 odd = PdfReader('examplefiles/odd.pdf')
-isEvenReversed = True;
+isEvenReversed = True
 all = PdfWriter()
 blank = PageMerge()
 blank.mbox = [0, 0, 612, 792] # 8.5 x 11
